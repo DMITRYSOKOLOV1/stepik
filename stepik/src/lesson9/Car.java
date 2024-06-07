@@ -25,4 +25,14 @@ public class Car {
         this.color = color;
         price += 10000;
     }
+    void changeColor1(String color){
+        System.out.println(color);
+    }
+
+    public static void main(String[] args) {
+        Car car = new Car("red","v8");
+        System.out.println(car.color);
+        car.changeColor1("black");
+        System.out.println(car.color);
+    }
 }
