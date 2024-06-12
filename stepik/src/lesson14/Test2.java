@@ -2,7 +2,7 @@ package lesson14;
 
 public class Test2 {
     public static void main(String[] args) {
-        for (int i = 0; i < 24; i = i + 5) {
+        for (int i = 0; i < 100; i = i + 10) {
             System.out.println(i);
         }
     }
