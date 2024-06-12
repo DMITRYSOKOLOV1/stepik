@@ -3,8 +3,8 @@ package lesson8;
 public class Student {
     String name;
     int course;
-    static int countStudent;
-    int a;
+    public static int countStudent;
+    public int a;
 
     public Student(String name,int course){
         countStudent++;

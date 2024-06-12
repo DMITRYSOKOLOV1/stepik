@@ -6,9 +6,9 @@ public class Car {
     String s = new String();
     String color;
     String engine;
-    static int count;
+    public static int count;
 
-    Car(String color,String engine){
+    public Car(String color,String engine){
         count ++; // this.count - тоже самое
         this.color = color;
         this.engine = engine;

@@ -2,6 +2,7 @@ package lesson9;
 
 public class Student {
     String name = "Ivan";
+
 }
 
 class StudentTest{
