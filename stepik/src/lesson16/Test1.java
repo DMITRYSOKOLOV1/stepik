@@ -6,6 +6,8 @@ public class Test1 {
         String s1 = new String("Hello world");
         String s2 = new String("Hello world");
         String s3 = "Hello world";
-        System.out.println("\"Hello world\"");
+        String s4 = "Hello world";
+        System.out.println(s4 == s3);
+        System.out.println(s1 == s2);
     }
 }
