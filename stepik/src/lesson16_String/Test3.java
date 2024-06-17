@@ -13,8 +13,14 @@ public class Test3 {
         //System.out.println(string2);
         String string3 = s2.replace("pik","p"); // меняет String на новый
         //System.out.println(string3);
-
         String string4 = s2.concat("-top"); // конкатенация
-        System.out.println(string4);
+        //System.out.println(string4);
+        String s = "HELLO";
+        String s4 = s.toLowerCase(); //
+        //System.out.println(s4);
+        String s5 = s2.toUpperCase();
+        //System.out.println(s5);
+        boolean b = s.contains("HE");
+        System.out.println(b);
     }
 }
