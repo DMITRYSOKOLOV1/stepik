@@ -1,6 +1,7 @@
 package lesson16_String;
 
 public class Test8 {
+    /*
     public static void main(String[] args) {
         String s1 = "Тест-дизайн — Это этап тестирования по, На котором проектируются и создаются тестовые случаи (Тест-кейсы)";
         String s2 = s1.toUpperCase();
@@ -17,5 +18,19 @@ public class Test8 {
             System.out.println(c1);
         }
         System.out.println();
+    } */
+
+    // chatGPT написал
+    public static void main(String[] args) {
+        String s1 = "Тест-дизайн — Это этап тестирования по, На котором проектируются и создаются тестовые случаи (Тест-кейсы)";
+        String result = "";
+        for (int i = 0; i < s1.length(); i++) {
+            char c = s1.charAt(i);
+            if (i != 0 && c >= 'A' && c <= 'Я'){
+                result += "\n";
+            }
+            result += c;
+        }
+        System.out.println(result);
     }
 }
