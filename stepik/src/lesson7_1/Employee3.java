@@ -1,5 +1,5 @@
 package lesson7_1;
-import lesson7.Employee;
+import lesson7_package.Employee;
 
 public class Employee3 {
     int age = 41;
