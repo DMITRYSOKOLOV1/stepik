@@ -15,7 +15,7 @@ public class Test1 {
         System.out.println(sb4.indexOf("o",2));
         String s = sb2.substring(5);
         String s2 = sb2.substring(0,4);
-        System.out.println(s + " " + s2);
+        System.out.println("sb2.substring(0,4); " + s + " " + s2);
 
         System.out.println(sb2.subSequence(5,9));
 
@@ -43,5 +43,7 @@ public class Test1 {
 
         sb1.replace(0,1,"J");
         System.out.println("sb1 - " + sb1);
+
+        System.out.println("sb1 capasity " + sb1.capacity());
     }
 }
