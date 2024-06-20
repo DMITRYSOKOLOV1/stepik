@@ -32,6 +32,6 @@ public class Test0 {
         array5[1] = 3.5;
 
         array3[1] = array5;
-        System.out.println(array3[1][0]);
+        System.out.println(array3[1][1]);
     }
 }
