@@ -10,7 +10,7 @@ public class Test2 {
         array2 = new int[3][];
 
         for (int i = 0; i < array1.length; i++) {
-            array1[0] = "Privet" + i;
+            array1[i] = "Privet" + i;
             System.out.println(array1[i]);
         }
         array2[0] = new int[5];
