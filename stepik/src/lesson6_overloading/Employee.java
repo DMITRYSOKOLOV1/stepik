@@ -2,10 +2,13 @@ package lesson6_overloading;
 
 public class Employee {
     Employee(int id2,String surname2,int age2){
-        this(id2,surname2,age2,0.0,null);
+        id = id2;
+		surname = surname2;
+		age = age2;
     }
     public  Employee(String surname3, int age3){
-        this(0,surname3,age3,0.0,null);
+        surname = surname3;
+		age = age3;
     }
     Employee(int id4,String surname4,int age4,double salary4,String department4){
         id = id4;
