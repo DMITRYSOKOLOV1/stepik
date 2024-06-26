@@ -17,7 +17,7 @@ public class Test3 {
             list.get(i).append("!!!");
         }
         list.remove(2);
-        list.remove("Hello!!!");
+        list.remove(sb1);
         for(StringBuilder sb: list) {
             System.out.println(sb);
         }

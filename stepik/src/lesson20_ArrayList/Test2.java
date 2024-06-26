@@ -8,17 +8,18 @@ public class Test2 {
         list.add("Hello");
         list.add("World");
         list.add("Java");
-        list.add(0, "Python");
-        for (String s : list) {
-            System.out.println(s);
-        }
+        list.add(3, "Python");
+        //for (String s : list) {System.out.println(s);}
 
         System.out.println(list.get(0));
-        for (String s : list) {
-            System.out.println(s);
-        }
+        //for (String s : list) {System.out.println(s);}
 
         list.set(0, "Letoile");
-        System.out.println(list.get(0));
+        //System.out.println(list.get(0));
+
+        list.remove("Hello");
+        for (String s : list) {
+            System.out.println("for each " + s);
+        }
     }
 }
