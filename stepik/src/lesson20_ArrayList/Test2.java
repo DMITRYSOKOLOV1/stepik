@@ -20,8 +20,9 @@ public class Test2 {
         }
         ArrayList<String> list2 = new ArrayList<>();
         list2.add("Petrov");
-        list2.add("Raj");
+        list2.add("Sidorov");
         list.addAll(list2);
+        list2.set(1,"Ivanov");
         for (String s : list) {
             System.out.println(s);
         }
