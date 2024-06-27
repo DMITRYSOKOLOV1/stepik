@@ -13,6 +13,8 @@ public class Test4 {
         }
         System.out.println();
         System.out.println(list.indexOf(new StringBuilder("hello")));
+
+        System.out.println(list.contains("privet") + " -метод contains");
     }
 }
 
@@ -35,5 +37,7 @@ class Test4_1 {
         ArrayList<String> list2 = new ArrayList<>();
         System.out.println(list.isEmpty());
         System.out.println(list2.isEmpty());
+
+        System.out.println(list.contains("privet") + " -метод contains"); //используется equels
     }
 }
