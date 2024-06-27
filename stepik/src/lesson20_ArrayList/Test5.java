@@ -1,6 +1,8 @@
 package lesson20_ArrayList;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Objects;
 
 public class Test5 {
@@ -43,5 +45,13 @@ class Test5_1 {
         for (StringBuilder sb : array2) {
             System.out.print(sb + " ");
         }
+        System.out.println();
+        StringBuilder[] array3 = {sb1, sb2, sb3};
+        List<StringBuilder> list4 = Arrays.asList(array3);
+        System.out.println(list4);
+        array3[0].append("!");
+        System.out.println(list4);
+        array3[0] = new StringBuilder("!!!");
+        System.out.println(list4);
     }
 }
