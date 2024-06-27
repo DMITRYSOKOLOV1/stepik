@@ -30,5 +30,10 @@ class Test4_1 {
         System.out.println();
         System.out.println(list.indexOf(new String("hello")));
         System.out.println(list.lastIndexOf(new String("hello")));
+
+        System.out.println(list.size());
+        ArrayList<String> list2 = new ArrayList<>();
+        System.out.println(list.isEmpty());
+        System.out.println(list2.isEmpty());
     }
 }
