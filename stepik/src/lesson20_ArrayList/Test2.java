@@ -26,5 +26,7 @@ public class Test2 {
         for (String s : list) {
             System.out.println(s);
         }
+        //list.clear();
+        //for (String s : list) {System.out.println(s + "Пусто");}
     }
 }
