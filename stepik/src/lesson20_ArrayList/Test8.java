@@ -30,5 +30,10 @@ public class Test8 {//доп методы ArrayList и List
         sublist.add("ten");
         System.out.println("al1 - " + al1);
         System.out.println("sublist - " + sublist);
+
+        Object [] array = al1.toArray();
+        for (Object o : array){
+            System.out.println("Object - " + o);
+        }
     }
 }
