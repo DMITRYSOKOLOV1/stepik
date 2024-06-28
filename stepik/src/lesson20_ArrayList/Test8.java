@@ -20,8 +20,10 @@ public class Test8 {//доп методы ArrayList и List
 
         //al1.removeAll(al2);
         //System.out.println("al1 - " + al1);
-        al1.retainAll(al2);
-        System.out.println("al1 - " + al1);
+        //al1.retainAll(al2);
+        //System.out.println("al1 - " + al1);
+        boolean result = al1.containsAll(al2);
+        System.out.println(result);
 
     }
 }
