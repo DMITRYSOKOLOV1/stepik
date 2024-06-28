@@ -12,7 +12,7 @@ public class Test8 {//доп методы ArrayList и List
         al1.add("three");
         al1.add("four");
         al1.add("five");
-        System.out.println("al1 - " + al1);
+        //System.out.println("al1 - " + al1);
         ArrayList<String> al2 = new ArrayList<String>();
         al2.add("one");
         al2.add("three");
@@ -26,6 +26,9 @@ public class Test8 {//доп методы ArrayList и List
         //boolean result = al1.containsAll(al2);
         //System.out.println(result +" - result");
         List <String> sublist = al1.subList(1,4);
+        //System.out.println("sublist - " + sublist);
+        sublist.add("ten");
+        System.out.println("al1 - " + al1);
         System.out.println("sublist - " + sublist);
     }
 }
