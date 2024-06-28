@@ -16,14 +16,14 @@ public class Test8 {//доп методы ArrayList и List
         al2.add("one");
         al2.add("three");
         al2.add("four");
-        al2.add("ten");
+        //al2.add("ten");
 
         //al1.removeAll(al2);
         //System.out.println("al1 - " + al1);
         //al1.retainAll(al2);
         //System.out.println("al1 - " + al1);
         boolean result = al1.containsAll(al2);
-        System.out.println(result);
+        System.out.println(result +" - result");
 
     }
 }
