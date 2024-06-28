@@ -1,6 +1,7 @@
 package lesson20_ArrayList;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Test8 {//доп методы ArrayList и List
 
@@ -22,8 +23,9 @@ public class Test8 {//доп методы ArrayList и List
         //System.out.println("al1 - " + al1);
         //al1.retainAll(al2);
         //System.out.println("al1 - " + al1);
-        boolean result = al1.containsAll(al2);
-        System.out.println(result +" - result");
-
+        //boolean result = al1.containsAll(al2);
+        //System.out.println(result +" - result");
+        List <String> sublist = al1.subList(1,4);
+        System.out.println("sublist - " + sublist);
     }
 }
