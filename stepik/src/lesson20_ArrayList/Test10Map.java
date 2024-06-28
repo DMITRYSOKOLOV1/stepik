@@ -10,6 +10,7 @@ public class Test10Map {
     map.put(2, "James");
     map.put(3, "John");
     map.put(4, "Mary");
+    map.remove(1);
         System.out.println(map);
     }
 }
