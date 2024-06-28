@@ -35,5 +35,8 @@ public class Test8 {//доп методы ArrayList и List
         for (Object o : array){
             System.out.println("Object - " + o);
         }
+
+        List <String> list1 = List.of("1", "2", "3", "4", "5");
+        System.out.println("list1 - " + list1);
     }
 }
