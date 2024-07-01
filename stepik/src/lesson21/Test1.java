@@ -1,4 +1,4 @@
-package lesson21_garbageCollector;
+package lesson21;
 
 public class Test1 {
     public static void main(String[] args) {
