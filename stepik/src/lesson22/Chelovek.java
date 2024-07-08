@@ -30,13 +30,22 @@ public class Chelovek {
             this.weight = weight;
         }
     }
+    private boolean smart;
+    public boolean isSmarts(){
+        return smart;
+    }
+    public void setSmarts(boolean smart) {
+        this.smart = smart;
+    }
 }
 class Test{
     public static void main(String[] args) {
         Chelovek ch = new Chelovek("Male");
         ch.setName("Ivan");
+        ch.setWeight(70.3);
+        ch.setAge(20);
         System.out.println(ch.getName());
-        ch.setAge(120);
+        System.out.println(ch.getWeight());
         System.out.println(ch.getAge());
     }
 }
