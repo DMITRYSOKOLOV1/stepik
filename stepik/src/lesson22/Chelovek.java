@@ -2,7 +2,7 @@ package lesson22;
 
 public class Chelovek {
     final String SEX;
-    Chelovek(String SEX){
+    public Chelovek(String SEX){
         this.SEX = SEX;
     }
     private String name;
@@ -37,6 +37,14 @@ public class Chelovek {
     public void setSmarts(boolean smart) {
         this.smart = smart;
     }
+    private StringBuilder prof;
+    public StringBuilder getProf() {
+        StringBuilder sb = new StringBuilder(prof);
+        return sb;
+    }
+    public void setProf(StringBuilder prof) {
+        this.prof = prof;
+    }
 }
 class Test{
     public static void main(String[] args) {
@@ -47,5 +55,9 @@ class Test{
         System.out.println(ch.getName());
         System.out.println(ch.getWeight());
         System.out.println(ch.getAge());
+
+        ch.setProf(new StringBuilder("Santeknic"));
+        ch.getProf().append("!");
+        System.out.println("Профессия - " + ch.getProf());
     }
 }
