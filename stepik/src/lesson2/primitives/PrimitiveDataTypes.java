@@ -9,7 +9,7 @@ public class PrimitiveDataTypes {
         int a = 21; // 2 147 483 647
 
         long l1 = 3_000_000_000L;
-        long l2 = 10_000_000_000L;
+
 
         float f1 = 3.14F;
         float f2 = 2.12f;
