@@ -22,8 +22,8 @@ public class Test4 {
 
         int a3 = a++;
 
-        System .out.println(celayChast);
-        System .out.println(ostatok);
+        System.out.println(celayChast);
+        System.out.println(ostatok);
         System.out.println(a3);
 
         int x = 5;
