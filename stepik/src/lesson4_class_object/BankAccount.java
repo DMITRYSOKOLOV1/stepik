@@ -4,23 +4,46 @@ public class BankAccount {
     int id;
     String name;
     double balance;
-    BankAccount(){}
     BankAccount(int id, String name, double balance){
         this.id = id;
         this.name = name;
         this.balance = balance;
-
-
-
-
     }
-    static void main() {
-        BankAccount test = new BankAccount(1, "Test", 250.50);
-        BankAccount test2 = new BankAccount();
-        test2.id = 2;
-        test2.balance = 100;
-        test2.name = "Test2";
+    public BankAccount() {}
+    public void deposit(double amount){
+        if (amount > 0){
+            this.balance += amount;
+        }
+    }
+    public void withdraw(double amount){
+        if (amount > 0){
+            this.balance -= amount;
+        }
+    }
+    public void display(){
+        System.out.println("ID: " + this.id + "\nName: " + this.name + "\nBalance: " + this.balance);
+    }
+    public static void main(String[] args) {
+        BankAccount bankAccount = new BankAccount(1, "Nguyen Van A", 10000.00);
+
+        BankAccount bankAccount1 = new BankAccount();
+        bankAccount1.id = 2;
+        bankAccount1.name = "Son Tung M-TP";
+        bankAccount1.balance = 200000.00;
+
+        bankAccount.withdraw(2500);
+        bankAccount.display();
+
+        bankAccount1.deposit(3000);
+        bankAccount1.display();
+
+        if (bankAccount.balance > bankAccount1.balance){
+            System.out.println("Account 1 is bigger than Account 2");
+        } else {
+            System.out.println("Account 2 is bigger than Account 1");
+        }
     }
 }
+
 
 
